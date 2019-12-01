@@ -1,4 +1,4 @@
-### Sample
+### Samples
 * [Slideshow](https://adrienloup.github.io/javascript-manipulation/slideshow/index.html)
 * [Fisher–Yates Shuffle](https://adrienloup.github.io/javascript-manipulation/design-pattern/fisher–yates-shuffle.html)
 * [Store](https://adrienloup.github.io/javascript-manipulation/store/index.html)
