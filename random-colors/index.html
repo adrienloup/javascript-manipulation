@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Random Colors</title>
+	<style>
+	
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	body {
+		display: flex;
+		flex-wrap: nowrap;
+		padding: 2px;
+	}
+
+	div {
+		width: calc((100% / 2) - 2px);
+		height: 10px;
+		margin: 1px;
+	}
+
+	</style>
+</head>
+<body>
+
+<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+
+	<script>
+
+const colors = ['#ebedf0','#c6e48b','#7bc96f','#239a3b','#196127']
+
+const divs = document.querySelectorAll('div')
+
+function random() {
+	for(let d of divs) {
+		let color = colors[Math.floor(Math.random() * colors.length)]
+		d.style.background = color
+	}
+}
+
+document.addEventListener('click', random, false)
+
+random()
+
+	</script>
+
+</body>
+</html>
