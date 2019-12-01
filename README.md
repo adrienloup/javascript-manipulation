@@ -1,0 +1,18 @@
+### Sample
+* [Slideshow](https://adrienloup.github.io/javascript-manipulation/slideshow/index.html)
+* [Fisher–Yates Shuffle](https://adrienloup.github.io/javascript-manipulation/design-pattern/fisher–yates-shuffle.html)
+* [Store](https://adrienloup.github.io/javascript-manipulation/store/index.html)
+* [Video Player](https://adrienloup.github.io/javascript-manipulation/video-player/index.html)
+* [Sticky Elements](https://adrienloup.github.io/javascript-manipulation/sticky-elements/index.html)
+* [Accordion](https://adrienloup.github.io/javascript-manipulation/accordion/index.html)
+* [Tabs](https://adrienloup.github.io/javascript-manipulation/tabs/index.html)
+* [Shopping Cart](https://adrienloup.github.io/javascript-manipulation/shopping-cart/index.html)
+* [Singleton](https://adrienloup.github.io/javascript-manipulation/design-pattern/singleton.html)
+* [Prime Number Calculator](https://adrienloup.github.io/javascript-manipulation/prime-number-calculator/index.html)
+* [Random Colors](https://adrienloup.github.io/javascript-manipulation/random-colors/index.html)
+* [Infinite Scroll](https://adrienloup.github.io/javascript-manipulation/infinite-scroll/index.html)
+* [Scroll](https://adrienloup.github.io/javascript-manipulation/experimental-layout/layout-1.html)
+* [Zoom](https://adrienloup.github.io/javascript-manipulation/experimental-layout/layout-3.html)
+* [Remove Item](https://adrienloup.github.io/javascript-manipulation/experimental-layout/layout-4.html)
+* [Slide Items](https://adrienloup.github.io/javascript-manipulation/experimental-layout/layout-5.html)
+* And others
