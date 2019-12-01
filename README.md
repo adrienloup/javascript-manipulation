@@ -15,4 +15,3 @@
 * [Zoom](https://adrienloup.github.io/javascript-manipulation/experimental-layout/layout-3.html)
 * [Remove Item](https://adrienloup.github.io/javascript-manipulation/experimental-layout/layout-4.html)
 * [Slide Items](https://adrienloup.github.io/javascript-manipulation/experimental-layout/layout-5.html)
-* And others
