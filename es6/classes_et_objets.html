@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script>
+
+// ES6
+class Animal {
+  
+  constructor(nom) {
+    this.name = nom;
+  }
+  
+  parler() {
+    return document.body.innerHTML += `${this.name} fait du bruit. <br>`;
+  }
+  
+}
+
+const animal = new Animal('chèvre');
+animal.parler();
+
+		</script>
+	</body>
+</html>
