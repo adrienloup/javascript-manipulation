@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script>
+
+// ES6
+class Car {
+  constructor(brand) {
+    this.carname = brand;
+  }
+  present() {
+    return document.body.innerHTML += 'I have a ' + this.carname;
+  }
+}
+
+class Model extends Car {
+  constructor(brand, model) {
+    super(brand);
+    this.model = model;
+  }
+  show() {
+    return this.present() + ', it is a ' + this.model;
+  }
+}
+
+mycar = new Model("Ford", "Mustang");
+document.body.insertAdjacentHTML('beforeend', mycar.show());
+
+		</script>
+	</body>
+</html>
