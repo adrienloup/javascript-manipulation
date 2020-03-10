@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script>
+
+// ES5
+Math.max.apply(Math, [2,100,1,6,43]) // 100
+
+// ES6
+Math.max(...[2,100,1,6,43]) // 100
+
+// ES5
+var tableau1a = [2, 100],
+    tableau2a = ["a", "b", "c", "d"],
+    tableau3a = [false, true, null, undefined];
+
+document.body.innerHTML += tableau1a.concat(tableau2a, tableau3a) + "<br>";
+
+// ES6
+const tableau1b = [2, 100],
+      tableau2b = ["a", "b", "c", "d"],
+      tableau3b = [false, true, null, undefined];
+
+document.body.innerHTML += [...tableau1b, ...tableau2b, ...tableau3b] + "<br>";
+
+		</script>
+	</body>
+</html>
