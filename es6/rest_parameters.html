@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script>
+
+// ES5
+function printf1(format) {
+  var params = [].slice.call(arguments, 1);
+  document.body.innerHTML += "params: " + params + "<br>";
+  document.body.innerHTML += "format: " + format + "<br>";
+}
+
+printf1("%s %d %.2f", "adrian", 321, Math.PI);
+
+// ES6
+function printf2(format, ...params) {
+  document.body.innerHTML += `params: ${params} <br>`;
+  document.body.innerHTML += `format: ${format} <br>`;
+}
+
+printf2("%s %d %.2f", "adrian", 321, Math.PI);
+
+		</script>
+	</body>
+</html>
